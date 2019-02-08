@@ -1,0 +1,242 @@
+
+body {
+    font-family: 'Lato';
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Catamaran';
+    font-weight: 800 !important;
+  }
+  
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+  
+  .bg-black {
+    background-color: #000 !important;
+  }
+  
+  .rounded-pill {
+    border-radius: 5rem;
+  }
+  
+  .navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ee0979;
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  
+.bg-primary {
+    background-color: #ee0979 !important;
+  }
+  
+  .btn-primary {
+    background-color: #ee0979;
+    border-color: #ee0979;
+  }
+  
+  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #bd0760 !important;
+    border-color: #bd0760 !important;
+  }
+  
+  .btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  }
+  
+  .btn-secondary {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+  }
+  
+  .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+    background-color: #cc5500 !important;
+    border-color: #cc5500 !important;
+  }
+  
+  .btn-secondary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  }
+
+  .carousel-item {
+    height: 120vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .botonAbout{
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+  
+  }
+
+  
+
+  
+  .services .media-body h3 {
+    font-size: 20px; }
+
+    
+.ftco-section .ftco-sub-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #d4d4d4;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300; }
+  
+  .ftco-section .ftco-primary-title {
+    margin-top: 0;
+    margin-bottom: 30px; }
+  
+  .media-custom {
+    background: #fff; }
+    .media-custom .media-body .name {
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 0;
+      color: #24bdc9; }
+    .media-custom .media-body .position {
+      font-size: 13px;
+      color: white; }
+  
+  .about-author .desc h3 {
+    font-size: 24px; }
+  
+  .ftco-section {
+    padding: 2em 0;
+    position: relative; }
+    @media (max-width: 767.98px) {
+      .ftco-section {
+        padding: 6em 0; } }
+  
+  .ftco-bg-dark {
+    background: #3c312e; }
+  
+ 
+/* --------------------------
+:: 13.0 Contact Area CSS Start
+-------------------------- */
+
+.address-text > p,
+.phone-text > p,
+.email-text > p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.address-text > p > span,
+.phone-text > p > span,
+.email-text > p > span {
+    color: #5b32b4;
+}
+
+.footer-contact-area .line-shape {
+    margin-left: 0;
+}
+
+.footer-contact-area .heading-text > p {
+    margin-top: 50px;
+}
+
+.footer-contact-area .heading-text {
+    margin-bottom: 50px;
+}
+
+#name {
+    font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px 25px 25px 0;
+}
+
+#email {
+    font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px 25px 25px 0;
+}
+
+#message {
+    border-radius: 25px 25px 25px 0;
+}
+
+.btn.submit-btn {
+    background: #fb397d;
+    height: 48px;
+    min-width: 185px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 22px 25px 22px 0;
+}
+
+.btn.submit-btn:hover {
+    background: #5b32b4;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.footer-contact-area {
+    background: #f5f9fc;
+}
+
+.footer-text > p {
+    margin-bottom: 50px;
+}
+
+.imagenCurso:hover{
+  -webkit-border-radius: 90px;
+  -webkit-border-bottom-right-radius: 1px;
+  -moz-border-radius: 90px;
+  -moz-border-radius-bottomright: 1px;
+  border-radius: 90px;
+  border-bottom-right-radius: 1px;
+  filter: grayscale(80%);
+}
+
+.imagenAbout:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;}
+
+  /*About  */
+  .about {
+    padding: 12em 0;
+    position: relative; }
+    @media (max-width: 767.98px) {
+      .about {
+        padding: 6em 0; } }
+  
+  
